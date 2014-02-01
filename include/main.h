@@ -54,10 +54,30 @@ extern "C" {
 // actual code. If a function does not match a prototype, compile errors will occur.
 
 // Prototypes for initialization, operator control and autonomous
-#define FRONT_RIGHT 2
-#define FRONT_LEFT 3
-#define BACK_RIGHT 4
-#define BACK_LEFT 5
+#define FRONT_RIGHT 4
+#define FRONT_LEFT 2
+#define BACK_RIGHT 5
+#define BACK_LEFT 3
+
+#define ARM_RIGHT_FORE 8
+#define ARM_RIGHT_AFT 9
+#define ARM_LEFT_FORE 7
+#define ARM_LEFT_AFT 6
+
+#define GRIP_RIGHT 1
+#define GRIP_LEFT 10
+
+extern Gyro gyro;
+#define GYRO_PORT 8
+//extern Potentiometer pot;
+#define POT_PORT 2
+
+#define IME_lEFT 1
+#define IME_RIGHT 0
+
+
+
+
 
 /**
  * Runs the user autonomous code. This function will be started in its own task with the default
