@@ -60,8 +60,6 @@ void operatorControl() {
 		motorSet(BACK_RIGHT, joystickGetAnalog(1, 3) - joystickGetAnalog(1, 1));
 
 
-
-
 		delay(20);
 	}
 }

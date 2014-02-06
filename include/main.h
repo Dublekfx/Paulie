@@ -75,10 +75,6 @@ extern Gyro gyro;
 #define IME_lEFT 1
 #define IME_RIGHT 0
 
-
-
-
-
 /**
  * Runs the user autonomous code. This function will be started in its own task with the default
  * priority and stack size whenever the robot is enabled via the Field Management System or the
